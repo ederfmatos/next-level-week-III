@@ -2,13 +2,13 @@ import React from 'react';
 
 import GlobalStyle from './styles/global';
 
-import { Landing } from './pages/index';
+import Routes from './routes';
 
 function App() {
   return (
     <div className="App">
-      <GlobalStyle/>
-      <Landing/>
+      <GlobalStyle />
+      <Routes />
     </div>
   );
 }

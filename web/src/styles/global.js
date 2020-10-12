@@ -14,6 +14,8 @@ export default createGlobalStyle`
     --app-background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
     --yellow: #ffd666;
     --cian: #96FEFF;
+    --blue: #15ced6;
+    --light-blue: #17d6eb;
   }
 
   html, body,#root {

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
   width: 100vw;
@@ -64,7 +65,7 @@ export const City = styled.strong`
 
 export const State = styled.span``;
 
-export const EnterButton = styled.a`
+export const EnterButton = styled(Link)`
   position: absolute;
   right: 0;
   bottom: 0;
