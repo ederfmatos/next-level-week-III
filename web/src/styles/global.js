@@ -10,6 +10,12 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
+  :root {
+    --app-background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+    --yellow: #ffd666;
+    --cian: #96FEFF;
+  }
+
   html, body,#root {
     height: 100%;
   }
@@ -29,7 +35,7 @@ export default createGlobalStyle`
   button,
   textarea,
   a {
-    font: 14px Nunito, sans-serif;
+    font: 18px Nunito, sans-serif;
   }
 
   ul {
@@ -38,5 +44,6 @@ export default createGlobalStyle`
 
   a {
     text-decoration: none;
+    cursor: pointer;
   }
 `;

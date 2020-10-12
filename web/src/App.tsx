@@ -2,12 +2,13 @@ import React from 'react';
 
 import GlobalStyle from './styles/global';
 
+import { Landing } from './pages/index';
+
 function App() {
   return (
     <div className="App">
       <GlobalStyle/>
-      
-      <h1>Happy</h1>
+      <Landing/>
     </div>
   );
 }
